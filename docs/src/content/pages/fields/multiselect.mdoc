@@ -21,7 +21,7 @@ multi: fields.multiselect({
     { label: 'Music', value: 'music' },
     { label: 'Chess', value: 'chess' },
   ],
-  defaultValue: ['surfing', 'basketball', 'music'],
+  defaultValue: ['surfing', 'basketball', 'music'] as const,
 }),
 ```
 
